@@ -15,4 +15,5 @@ h1 {
     font-size: 256px;
     font-weight: 1000;
     text-align: center;
+    flex-wrap: wrap;
 }
