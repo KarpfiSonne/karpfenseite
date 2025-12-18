@@ -17,6 +17,7 @@ a,.header {
     color: var(--colorThree);
 }
 
+
 html {
     padding: 0px;
     margin: 0px;
@@ -34,7 +35,7 @@ body {
 .header {
     background-color: var(--colorFive);
     font-size: 18px;
-    padding: 24px;
+    padding: 24px 36px 24px 36px;
     display: flex;
     justify-content: space-between;
 }
@@ -42,4 +43,14 @@ body {
 .header-links {
     display: flex;
     gap: 16px;
+}
+
+:hover.link {
+    color: #2E4052;
+}
+
+
+#logo {
+    font-size: 24px;
+    font-weight: 900;
 }
