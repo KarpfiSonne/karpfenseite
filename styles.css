@@ -25,10 +25,9 @@ p {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
-a,.header {
+.header a {
     color: var(--colorThree);
 }
 
@@ -68,6 +67,9 @@ body {
     color: #2E4052;
 }
 
+:hover.linktwo {
+    color: var(--colorFive)
+}
 
 #logo {
     font-size: 24px;
@@ -140,4 +142,21 @@ p,.footer {
 #computeropa {
     border: 4px solid var(--colorFive);
     border-radius: 4px;
+}
+
+.karpfenlore {
+    text-align: center;
+    padding: 96px 192px 96px 192px;
+    color: var(--colorFour);
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.karpfenlore h2 {
+    font-size: 48px;
+    margin: 16px;
+}
+
+.karpfenlore a {
+    color: var(--colorThree);
 }
