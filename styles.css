@@ -1,19 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
-    background-color: rgb(255, 95, 175);
-    font-family: Roboto, "Helvetica Neue", sans-serif;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+:root {
+    --colorOne: #BDD9BF;
+    --colorTwo: #2E4052;
+    --colorThree: #FFC857;
+    --colorFour: #FFFFFF;
+    --colorFive: #412234;
 }
 
-h1 {
-    padding: 0;
-    margin: 0;
-    font-size: 256px;
-    font-weight: 1000;
-    text-align: center;
-    flex-wrap: wrap;
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a,.header {
+    color: var(--colorThree);
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    margin: 0px;
+    background-color: var(--colorTwo);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: var(--colorFive);
+    font-size: 18px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
 }
