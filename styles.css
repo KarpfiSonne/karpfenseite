@@ -27,11 +27,14 @@ body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
     margin: 0px;
     background-color: var(--colorTwo);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
 .header {
     background-color: var(--colorFive);
     font-size: 18px;
@@ -53,4 +56,23 @@ body {
 #logo {
     font-size: 24px;
     font-weight: 900;
+}
+
+.hero {
+    color: var(--colorFour);
+}
+
+.footer {
+    background-color: var(--colorThree);
+    color: var(--colorFive);
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 36px 32px 36px;
+}
+
+p,.footer {
+   margin: 0px;
 }
