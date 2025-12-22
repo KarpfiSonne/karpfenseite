@@ -197,6 +197,11 @@ p,.footer {
     border: 4px solid var(--colorThree);
     border-radius: 16px;
     text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+:hover.card {
+    transform: scale(1.1);
 }
 
 .card-text {
