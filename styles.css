@@ -223,3 +223,10 @@ p,.footer {
 :hover.card-link {
     color: var(--colorTwo);
 }
+
+.warentrenner>p {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    color: var(--colorOne);
+}
