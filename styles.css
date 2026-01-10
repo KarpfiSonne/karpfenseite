@@ -231,6 +231,31 @@ p,.footer {
     color: var(--colorOne);
 }
 
+.projects-header {
+    text-align: center;
+    padding: 72px;
+    color: var(--colorFour);
+    align-self: flex-start;
+}
+
+.projects-header>h1 {
+    font-size: 72px;
+    font-weight: bolder;
+}
+
+.projects-header>p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.projects-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+    margin: 72px;
+}
+
 .about-header {
     text-align: center;
     padding: 96px;
